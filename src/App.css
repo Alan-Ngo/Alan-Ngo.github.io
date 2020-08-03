@@ -10,39 +10,10 @@ div{
   padding: 0;
 }
 
-#root{
-  height: 100%;
-  margin: 0px;
-}
-
 .App{
   text-align: center;
   height: 100%; 
   font-family: 'Inconsolata', monospace;
-}
-
-#projectContainer{
-  background-color:#FAFAED;
-  padding: 20px;
-}
-
-#projects{
-  margin:20px;
-  padding-left: 20%;
-  padding-right: 20%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: auto;
-  grid-gap: 15px;
-  align-items: center;
-  justify-content: center;
-}
-
-#projects .project{
-  background-color: rgba(0,0,0,0.1) ;
-  border-radius: 10px;
-  height: 300px;
-
 }
 
 #blogContainer{
