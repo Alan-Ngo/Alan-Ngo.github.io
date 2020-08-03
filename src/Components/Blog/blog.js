@@ -1,4 +1,5 @@
 import React from 'react';
+import "./blog.css";
 
 export class Blog extends React.Component {
   constructor(props) {
