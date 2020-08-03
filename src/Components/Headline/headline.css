@@ -1,0 +1,39 @@
+#headlineContainer{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas: 
+      ". . .   .   .   .   .   .   . ."
+      ". . .   .   pic pic .   .   . ."
+      ". . .   .   pic pic .   .   . ."
+      ". . .   t   t   t   t   .   . ."
+      ". . des des des des des des . ."
+      ". . .   .   d   d   .   .   . ."
+      ". . .   .   .   .   .   .   . ."
+    ;  
+    width:100%;
+    height:inherit;
+    margin:0px;
+    padding: 0px;
+    background-color: white;
+  }
+
+  #avatar{
+    width: 100%;
+    height:100%;
+    grid-area: 'pic';
+  }
+
+  #name{
+    font-size:7em;
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+  }
+
+#description{
+    font-weight: 500 ;
+  }
+
+  #redirect{
+    cursor: pointer;
+  }
