@@ -1,0 +1,72 @@
+html, body {
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    cursor: default;
+  }
+
+#container{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+#logo{
+    width:40px;
+    font-family: 'Inconsolata';
+    color:white;
+    line-height:80px;
+    padding-left:20px;
+    font-size:40px;
+    cursor: pointer;
+  }
+
+  #nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+  }
+
+  #nav div{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    color:white;
+    cursor: pointer;
+  }
+  
+  #nav div span{
+    padding-left: 1px;
+    padding-right: 1px;
+    height: 3px;
+  }
+  
+  #nav div:hover{
+    color: rgb(200, 200, 200);
+  }
+  
+  #nav div:nth-child(1) span{
+    background-color: aliceblue;
+    border-radius: 3px;
+    height: 2px;
+    display: block;
+    width:100%;
+  }
+  
+  #nav div:nth-child(1) span{
+    background-color: aliceblue;
+    border-radius: 3px;
+    height: 2px;
+    display: block;
+    width:100%;
+  }
+
+  canvas{
+    position: absolute !important;
+  }

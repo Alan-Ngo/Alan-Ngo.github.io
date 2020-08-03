@@ -4,6 +4,7 @@ import {Headline} from './Components/Headline/headline';
 import { Project } from './Components/Project/project';
 import { Blog } from './Components/Blog/blog';
 import { Footer } from './Components/Footer/footer';
+import './App.css';
 
 function App() {
   return (

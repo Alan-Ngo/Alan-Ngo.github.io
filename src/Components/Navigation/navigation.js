@@ -1,5 +1,6 @@
 import React from 'react';
 import Particles from 'react-particles-js';
+import './navigation.css';
 
 export class Navigation extends React.Component {
     constructor(props) {
