@@ -1,10 +1,9 @@
 import React from 'react';
-import './App.css?v=2';
-import {Navigation} from './Components/navigation';
-import {Headline} from './Components/headline';
-import { Project } from './Components/project';
-import { Blog } from './Components/blog';
-import { Footer } from './Components/footer';
+import {Navigation} from './Components/Navigation/navigation';
+import {Headline} from './Components/Headline/headline';
+import { Project } from './Components/Project/project';
+import { Blog } from './Components/Blog/blog';
+import { Footer } from './Components/Footer/footer';
 
 function App() {
   return (
