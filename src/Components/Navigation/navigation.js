@@ -9,14 +9,15 @@ export class Navigation extends React.Component {
 
     render() {
       return (
-        <div>
+        <div >
             <div id="container">
                 <div id="logo">AN</div>
                 <div id="nav">
-                <div>Home </div>
-                <div>Projects</div>
-                <div>Blog</div>
-                <div>Contact</div>
+                <div><a class="section" href="#headlineContainer">Home</a><div class="underline"></div></div>
+
+                <div><a class="section" href="#projectContainer">Projects</a><div class="underline"></div></div>
+                <div><a class="section" href="#blogContainer">Blog</a><div class="underline"></div></div>
+                <div><a class="section" href="#contact">Contact</a><div class="underline"></div></div>
                 </div>
                 <div id="logo"></div>
             </div>
