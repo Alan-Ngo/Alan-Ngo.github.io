@@ -15,8 +15,3 @@ div{
   height: 100%; 
   font-family: 'Inconsolata', monospace;
 }
-
-#contact{
-  background-color: rgba(0,0,0,0.8);
-  color: white;
-}
