@@ -36,4 +36,19 @@
 
   #redirect{
     cursor: pointer;
+    color: black;
+    display: block;
+    text-decoration: none;
+    animation-name: example;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
   }
+
+@keyframes example {
+  0%   {transform: translate(0px,0px);}
+  100%  {transform: translate(0px,-25px);}
+}
+
+  
