@@ -67,9 +67,5 @@ div{
 }
 
 #nav div:hover > .underline{
-    border-bottom: 3px solid rgb(200, 200, 200);
-}
-
-#nav div:hover > .section{
-    color: rgb(200, 200, 200);
+    border-bottom: 3px solid white;
 }
