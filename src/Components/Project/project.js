@@ -9,13 +9,40 @@ export class Project extends React.Component {
   render() {
     return (
         <div id="projectContainer">
-            <h1>Projects</h1>
-            <div id="projects">
-                    <div class="project"><h2>Title</h2><p>Description</p><p>used:</p></div>
-                    <div class="project"><h2>Title</h2><p>Description</p><p>used:</p></div>
-                    <div class="project"><h2>Title</h2><p>Description</p><p>used:</p></div>
-                    <div class="project"><h2>Title</h2><p>Description</p><p>used:</p></div>
+            <div>
+              <h1>Personal Projects</h1>
+              <div>Self-motivated projects which expand my creativity and offer clients an insight into my wider vision</div>
             </div>
+
+            <div id="projects">
+                    <a class="project" href="#">
+                      <img></img>
+                      <div class="title">
+                        <h2>Title</h2>
+                      </div>
+                    </a>
+                    <a class="project" href="#">
+                      <img></img>
+                      <div class="title">
+                        <h2>Title</h2>
+                      </div>
+                    </a>
+                    <a class="project" href="#">
+                      <img></img>
+                      <div class="title">
+                        <h2>Title</h2>
+                      </div>
+                    </a>
+                    <a class="project" href="#">
+                      <img></img>
+                      <div class="title">
+                        <h2>Title</h2>
+                      </div>
+                    </a>
+                  
+            </div>
+            <button type="button" onclick="alert('Hello world!')">More Projects</button>
+
         </div>
     );
   }
