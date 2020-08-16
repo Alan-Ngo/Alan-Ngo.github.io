@@ -21,15 +21,16 @@
   }
   
   #projects .project{
-    border-radius: 3px;
+    border-radius: 10px;
     height: 250px;
     overflow: hidden;
     color: white;
     text-decoration: none;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   .title{
-    height: 10%;
+    height: 20%;
     background-color:#232b2b;
     position: relative;
     bottom:  10%;
@@ -68,6 +69,7 @@ button{
   border: 2px solid grey;
   cursor: pointer;
   font-weight: bold;
+  
 }
 
 button:hover {
