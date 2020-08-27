@@ -26,11 +26,14 @@
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
-  .blogImg{
-    background-image: url(https://miro.medium.com/max/3600/1*6ahbWjp_g9hqhaTDSJOL1Q.png);
-    background-size: contain;
-    height: 60%;
-  }
+.blog:hover .overlay{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width:100%;
+  height:100%;
+  background-color: rgba(255, 255, 255, 0.15);
+}
 
 .blogInfo{
   height: 40%;
@@ -53,3 +56,21 @@
   .blog:hover .blogTitle{
     text-decoration: underline;
   }
+
+.blogImg{
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.imgContainer{
+  height: 60%;
+  position: relative;
+}
+
+#blogContainer > h1{
+  display: inline-block;
+  position: relative;
+  
+}
+
+

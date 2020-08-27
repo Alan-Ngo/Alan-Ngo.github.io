@@ -43,7 +43,7 @@
     padding: 0;
   }
 
-  img{
+  .project img{
     width: 100%;
     height: 90%;
     background-image: url(https://www.nintendo.com/content/dam/noa/en_US/games/switch/o/overcooked-2-switch/overcooked-2-switch-hero.jpg);
@@ -64,15 +64,18 @@
 
 button{
   padding: 10px;
-  border-radius: 3px;
+  border-radius: 4px;
   background-color: transparent;
-  border: 2px solid grey;
+  border: 2px solid rgba(0,116,217,0.9);
+  background-color: rgba(0,116,217,1);
+  color:white;
   cursor: pointer;
   font-weight: bold;
   
 }
 
 button:hover {
-  background: grey;
+  background: rgba(0,116,217,0.9);
+  color:white;
 }
 

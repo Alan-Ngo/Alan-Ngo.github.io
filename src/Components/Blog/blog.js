@@ -12,7 +12,10 @@ export class Blog extends React.Component {
             <h1>Blog</h1>
             <div id="blogs">
                     <a class="blog" href="#">
-                    <div class="blogImg"></div>
+                    <div class="imgContainer">
+                      <img class="blogImg" src="https://miro.medium.com/max/3600/1*6ahbWjp_g9hqhaTDSJOL1Q.png" ></img>
+                      <div class="overlay"></div>
+                    </div>
                     <div class="blogInfo">
                       <h2 class="blogTitle">JavaScript Promises</h2>
                       <div class="blogExtra">
@@ -21,8 +24,12 @@ export class Blog extends React.Component {
                       </div>
                     </div>
                     </a>
+                   
                     <a class="blog" href="#">
-                    <div class="blogImg"></div>
+                    <div class="imgContainer">
+                      <img class="blogImg" src="https://miro.medium.com/max/3600/1*6ahbWjp_g9hqhaTDSJOL1Q.png" ></img>
+                      <div class="overlay"></div>
+                    </div>
                     <div class="blogInfo">
                       <h2 class="blogTitle">JavaScript Promises</h2>
                       <div class="blogExtra">
@@ -31,8 +38,12 @@ export class Blog extends React.Component {
                       </div>
                     </div>
                     </a>
+                   
                     <a class="blog" href="#">
-                    <div class="blogImg"></div>
+                    <div class="imgContainer">
+                      <img class="blogImg" src="https://miro.medium.com/max/3600/1*6ahbWjp_g9hqhaTDSJOL1Q.png" ></img>
+                      <div class="overlay"></div>
+                    </div>
                     <div class="blogInfo">
                       <h2 class="blogTitle">JavaScript Promises</h2>
                       <div class="blogExtra">
@@ -41,8 +52,12 @@ export class Blog extends React.Component {
                       </div>
                     </div>
                     </a>
+                   
                     <a class="blog" href="#">
-                    <div class="blogImg"></div>
+                    <div class="imgContainer">
+                      <img class="blogImg" src="https://miro.medium.com/max/3600/1*6ahbWjp_g9hqhaTDSJOL1Q.png" ></img>
+                      <div class="overlay"></div>
+                    </div>
                     <div class="blogInfo">
                       <h2 class="blogTitle">JavaScript Promises</h2>
                       <div class="blogExtra">
@@ -51,8 +66,12 @@ export class Blog extends React.Component {
                       </div>
                     </div>
                     </a>
+                   
                     <a class="blog" href="#">
-                    <div class="blogImg"></div>
+                    <div class="imgContainer">
+                      <img class="blogImg" src="https://miro.medium.com/max/3600/1*6ahbWjp_g9hqhaTDSJOL1Q.png" ></img>
+                      <div class="overlay"></div>
+                    </div>
                     <div class="blogInfo">
                       <h2 class="blogTitle">JavaScript Promises</h2>
                       <div class="blogExtra">
