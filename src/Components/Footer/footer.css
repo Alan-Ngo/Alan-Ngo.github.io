@@ -1,5 +1,118 @@
 
-#contact{
+#footer{
     background-color: rgba(0,0,0,0.8);
     color: white;
+    padding:20px;
+}
+
+#test > h1 {
+  margin: 20px;
+  display: inline-block;
+  margin-bottom: 0;
+  position: relative;
+
+}
+
+#test > h1::after{
+  content : "";
+  position : absolute;
+  width : 0%;
+  height : 2px;
+  background-color: white;
+  bottom: 0;
+  left: 0;
+  transition : width 0.25s linear;
+}
+
+#footer:hover h1::after {
+  width:100%;
+}
+
+#test > div {
+  display: flex;
+  justify-content: center;
+}
+
+#test{
+  display: inline-block;
+  text-align: left;
+}
+
+  #contact{
+    text-align: left;
+    padding: 20px;
+    width:350px;
+    word-wrap: break-word;
+  }
+
+  .icon{
+    background-color: rgba(255,255,255, 0.5);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: rgba(51, 50, 50, 1);
+    transition: 0.5s;
+  }
+
+  #icons{
+    display: flex;
+    justify-content:center;
+    padding: 40px;
+  }
+
+  .icon:hover{
+    background-color: rgba(255,255,255, 0.8);
+  }
+
+  form{
+    width:350px;
+    box-sizing: content-box;
+  }
+
+  textarea:focus, input:focus{
+    outline-color: grey;
+  }
+
+  input[type=text],input[type=email], textarea{
+    width:100%;
+    box-sizing: border-box;
+    border: 2px solid rgba(51, 50, 50, 1);
+    border-radius: 5px;
+    padding:10px;
+    box-shadow:  0 4px 5px 0 rgba(0, 0, 0, 0.05),0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  input:hover , textarea:hover{
+    border: 2px solid rgba(111, 110, 110, 1);
+  }
+
+  input[type=submit]{
+    padding: 10px;
+    border-radius: 4px;
+    color:white;
+    background-color: #0074D9;
+    border: 2px solid rgba(51, 50, 50, 1);
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow:  10px;
+
+  }
+
+  textarea{
+    height: 100px;
+  }
+
+  label{
+    display: block;
+    padding: 5px;
+  }
+
+  form div{
+    text-align: left;
+    padding:5px;
   }
