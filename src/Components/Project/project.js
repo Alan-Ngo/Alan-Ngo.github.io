@@ -16,25 +16,40 @@ export class Project extends React.Component {
 
             <div id="projects">
                     <a class="project" href="#">
-                      <img></img>
+                      <div class="projImgC">
+                        <img></img>
+                        <div class="overlay"></div>
+                      </div>
                       <div class="title">
                         <h2>Title</h2>
                       </div>
                     </a>
+
                     <a class="project" href="#">
-                      <img></img>
+                      <div class="projImgC">
+                        <img></img>
+                        <div class="overlay"></div>
+                      </div>
                       <div class="title">
                         <h2>Title</h2>
                       </div>
                     </a>
+
                     <a class="project" href="#">
-                      <img></img>
+                      <div class="projImgC">
+                        <img></img>
+                        <div class="overlay"></div>
+                      </div>
                       <div class="title">
                         <h2>Title</h2>
                       </div>
                     </a>
+                    
                     <a class="project" href="#">
-                      <img></img>
+                      <div class="projImgC">
+                        <img></img>
+                        <div class="overlay"></div>
+                      </div>
                       <div class="title">
                         <h2>Title</h2>
                       </div>

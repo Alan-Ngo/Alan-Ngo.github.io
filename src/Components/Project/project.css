@@ -1,5 +1,5 @@
 #projectContainer{
-    background-color: 	rgb(250, 250, 250);
+    background-color: 	#FAFAED;
     padding: 20px;
     margin: 0;
   }
@@ -30,12 +30,12 @@
   }
 
   .title{
-    height: 20%;
-    background-color:#232b2b;
-    position: relative;
-    bottom:  10%;
+    background-color: darkslategrey;
+    position: sticky;
+    bottom:  0;
     z-index: 3;
     padding: 10px;
+    height: 12%;
   }
 
   h2{
@@ -43,14 +43,32 @@
     padding: 0;
   }
 
-  .project img{
+  .project:hover .overlay{
+    background-color: green;
+  }
+
+  .projImgC{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .project div img{
     width: 100%;
     height: 90%;
-    background-image: url(https://www.nintendo.com/content/dam/noa/en_US/games/switch/o/overcooked-2-switch/overcooked-2-switch-hero.jpg);
-    background-size: cover;
+    background-image: url(https://cdn2.unrealengine.com/egs-thelastcampfire-hellogames-s1-2560x1440-792480083.jpg?h=1080&resize=1&w=1920);
+    background-size: contain;
     display: block;
     position: relative;
-    transition: transform 1s;
+    transition: transform 1.5s;
+    z-index: 2;
+  }
+
+  .project:hover .overlay{
+    position: absolute;
+    top:0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
     z-index: 2;
   }
 
