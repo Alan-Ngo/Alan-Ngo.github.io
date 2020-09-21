@@ -1,18 +1,18 @@
 #headlineContainer{
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(6, 1fr) 10px;
-    grid-template-areas: 
-      ". . .   .   .   .   .   .   . ."
-      ". . .   .   pic pic .   .   . ."
-      ". . .   .   pic pic .   .   . ."
-      ". . .   t   t   t   t   .   . ."
-      ". . des des des des des des . ."
-      ". . .   .   d   d   .   .   . ."
-      ". . .   .   .   .   .   .   . ."
-    ;  
     width:100%;
     height:100%;
+    grid-template-areas: 
+    ". . .   .   .   .   .   .   . ."
+    ". . .   .   pic pic .   .   . ."
+    ". . .   .   pic pic .   .   . ."
+    ". . .   t   t   t   t   .   . ."
+    ". . des des des des des des . ."
+    ". . .   .   d   d   .   .   . ."
+    ". . .   .   .   .   .   .   . ."
+  ;  
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     margin:0px;
     padding: 0px;
     background-color: #FAFAED;
@@ -46,9 +46,36 @@
     animation-iteration-count: infinite;
   }
 
+
+
 @keyframes example {
   0%   {transform: translate(0px,0px);}
   100%  {transform: translate(0px,-25px);}
 }
 
+@media screen and (max-width: 480px) {
+  #headlineContainer{
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr auto auto 50px 50px;
+    grid-template-areas: 
+    ". pic pic pic ."
+    ". t t t ."
+    ". des des des ."
+    ". . . . ."
+    ". . d . ."
+    ;  
+  }
+
+  #name{
+    font-size: 14vw;
+  }
+}
   
+@media screen and (max-width: 768px) {
+
+}
+
+
+@media screen and (max-width: 1024px) {
+
+}

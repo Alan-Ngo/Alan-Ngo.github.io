@@ -116,3 +116,34 @@
     text-align: left;
     padding:5px;
   }
+
+  @media screen and (max-width: 480px) {
+    #contact{
+      box-sizing: border-box;
+      width:100%;
+    }
+
+    #test{
+      width:100%;
+    }
+
+    #test > div {
+      display: block;
+    }
+
+    form{
+      width:100%;
+    }
+
+    .icon{
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+      margin:10px;
+    }
+
+    #icons{
+      padding: 10px;
+    }
+  
+  }

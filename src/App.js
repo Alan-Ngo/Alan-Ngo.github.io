@@ -6,6 +6,7 @@ import { Blog } from './Components/Blog/blog';
 import { Footer } from './Components/Footer/footer';
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">

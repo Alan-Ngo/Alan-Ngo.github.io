@@ -5,6 +5,20 @@ import './navigation.css';
 export class Navigation extends React.Component {
     constructor(props) {
       super(props);
+      const onClick = () => console.log('clicked');
+
+      this.myFunction = this.myFunction.bind(this);
+    }
+
+    myFunction(event){
+        event.preventDefault();
+        console.log('yyyy');
+        var x = document.getElementById("nav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
     }
 
     render() {
@@ -12,14 +26,17 @@ export class Navigation extends React.Component {
         <div >
             <div id="container">
                 <div id="logo">AN</div>
-                <div id="nav">
-                <div><a class="section" href="#headlineContainer">Home</a><div class="underline"></div></div>
-
-                <div><a class="section" href="#projectContainer">Projects</a><div class="underline"></div></div>
-                <div><a class="section" href="#blogContainer">Blog</a><div class="underline"></div></div>
-                <div><a class="section" href="#contact">Contact</a><div class="underline"></div></div>
+                <div id="nav" class="topnav">
+                <div><a class="section" href="#headlineContainer"><h3>About</h3></a><div class="underline"></div></div>
+                <div><a class="section" href="#projectContainer"><h3>Projects</h3></a><div class="underline"></div></div>
+                <div><a class="section" href="#blogContainer"><h3>Blog</h3></a><div class="underline"></div></div>
+                <div><a class="section" href="#contact"><h3>Contact</h3></a><div class="underline"></div></div>
+                </div>            
+                <div id="logo">
+                  <button onClick={this.myFunction}>
+                  <i class="fa fa-bars"></i>
+                  </button>
                 </div>
-                <div id="logo"></div>
             </div>
 
             <Particles
