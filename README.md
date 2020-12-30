@@ -6,3 +6,7 @@ Website contains:
 - Past projects
 - Blog
 - Contact
+
+Will be added soon:
+- Online CV
+- Online game
