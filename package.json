@@ -1,5 +1,5 @@
 {
-  "homepage":"https://alan-ngo.github.io",
+  "homepage":"https://www.alanngo.co.uk",
   "name": "website",
   "version": "0.1.0",
   "private": true,
@@ -13,13 +13,14 @@
     "react-dom": "^16.13.1",
     "react-particles-js": "^3.2.1",
     "react-scripts": "3.4.1"
+
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && cp CNAME build/CNAME",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

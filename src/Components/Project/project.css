@@ -97,13 +97,30 @@ button:hover {
   color:white;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   #projects{
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
     padding-left: 5%;
     padding-right: 5%;
   }
+}
 
+@media screen and (min-width: 600px) and (max-width: 1024px){
+  #projects{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1800px){
+  #projects{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
   

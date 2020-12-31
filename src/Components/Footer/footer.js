@@ -45,7 +45,9 @@ export class Footer extends React.Component {
               <label for="message">Message</label>
               <textarea id="subject" name="fsubject" ></textarea>
             </div>
-            <input type="submit" value="Submit"/>
+            <div>
+              <input type="submit" value="Submit"/>
+            </div>
           </form>
         </div>
         </div>

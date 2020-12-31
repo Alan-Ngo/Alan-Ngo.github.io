@@ -11,7 +11,7 @@ export class Headline extends React.Component {
     return (
       <div id="headlineContainer">
         <Avatar
-            style={{width:'100%',gridArea:'pic'}}
+            style={{width:'100%',height:'100%',gridArea:'pic'}}
             avatarStyle='Circle'
             topType='ShortHairShortFlat'
             accessoriesType='Round'

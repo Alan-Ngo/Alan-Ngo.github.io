@@ -12,7 +12,6 @@ export class Navigation extends React.Component {
 
     myFunction(event){
         event.preventDefault();
-        console.log('yyyy');
         var x = document.getElementById("nav");
         if (x.className === "topnav") {
           x.className += " responsive";
