@@ -15,7 +15,6 @@ import ProjPage from './Pages/ProjPage';
 function App() {
   return (
     <HashRouter basename='/'>
-       {/*All our Routes goes here!*/}
        <Route exact path="/" component={MainPage} />
        <Route path="/test" component={ProjPage} />
       </HashRouter>
