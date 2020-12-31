@@ -1,21 +1,24 @@
 import React from 'react';
-import {Navigation} from './Components/Navigation/navigation';
-import {Headline} from './Components/Headline/headline';
-import { Project } from './Components/Project/project';
-import { Blog } from './Components/Blog/blog';
-import { Footer } from './Components/Footer/footer';
+
 import './App.css';
+import {
+  BrowserRouter as HashRouter,
+  Route,
+  Switch,
+  Link,
+  Redirect
+} from "react-router-dom";
+import MainPage from './Pages/MainPage';
+import ProjPage from './Pages/ProjPage';
 
 
 function App() {
   return (
-    <div className="App">
-      <Navigation></Navigation>
-      <Headline></Headline>
-      <Project></Project>
-      <Blog></Blog>
-      <Footer></Footer>
-    </div>
+    <HashRouter basename='/'>
+       {/*All our Routes goes here!*/}
+       <Route exact path="/" component={MainPage} />
+       <Route path="/test" component={ProjPage} />
+      </HashRouter>
   );
 }
 
