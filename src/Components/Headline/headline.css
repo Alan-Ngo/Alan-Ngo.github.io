@@ -53,11 +53,11 @@
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) and (min-width: 500px){
   #headlineContainer{
     grid-template-columns: repeat(5, 1fr);
     grid-template-areas:
-    ". . . . ." 
+    ". . . . ."
     ". pic pic pic ."
     ". pic pic pic ."
     ". t t t ."
@@ -70,4 +70,32 @@
     font-size: 14vw;
   }
 }
+
+@media screen and (max-width: 500px) {
+  #headlineContainer{
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+    ". pic pic pic ."
+    ". pic pic pic ."
+    ". t t t ."
+    ". des des des ."
+    ". . d . ."
+    ;  
+  }
+
+  #name{
+    font-size: 14vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 

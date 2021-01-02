@@ -1,12 +1,16 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 import './navigation.css';
+import { HashLink } from 'react-router-hash-link';
 
 export class Navigation extends React.Component {
     constructor(props) {
       super(props);
       const onClick = () => console.log('clicked');
-
+      const RemoveHashFromUrl = () => {
+        const url = window.location.href.replace('/#', '');
+        window.location.href = url;
+      };
       this.myFunction = this.myFunction.bind(this);
     }
 
@@ -26,10 +30,10 @@ export class Navigation extends React.Component {
             <div id="container">
                 <div id="logo">AN</div>
                 <div id="nav" class="topnav">
-                <div><a class="section" href="#headlineContainer"><h3>About</h3></a><div class="underline"></div></div>
-                <div><a class="section" href="#projectContainer"><h3>Projects</h3></a><div class="underline"></div></div>
-                <div><a class="section" href="#blogContainer"><h3>Blog</h3></a><div class="underline"></div></div>
-                <div><a class="section" href="#contact"><h3>Contact</h3></a><div class="underline"></div></div>
+                <div><HashLink class="section" to="#headlineContainer"><h3>About</h3></HashLink><div class="underline"></div></div>
+                <div><HashLink class="section" to="#projectContainer"><h3>Projects</h3></HashLink><div class="underline"></div></div>
+                <div><HashLink class="section" to="#blogContainer"><h3>Blog</h3></HashLink><div class="underline"></div></div>
+                <div><HashLink class="section" to="#contact"><h3>Contact</h3></HashLink><div class="underline"></div></div>
                 </div>            
                 <div id="logo">
                   <button onClick={this.myFunction}>

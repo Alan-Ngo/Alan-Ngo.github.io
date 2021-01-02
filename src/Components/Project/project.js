@@ -15,13 +15,13 @@ export class Project extends React.Component {
             </div>
 
             <div id="projects">
-                    <a class="project" href="#">
+                    <a class="project" href="#/project">
                       <div class="projImgC">
                         <img></img>
                         <div class="overlay"></div>
                       </div>
                       <div class="title">
-                        <h2>Title</h2>
+                        <h2>CAPTCHA Program</h2>
                       </div>
                     </a>
 

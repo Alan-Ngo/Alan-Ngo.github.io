@@ -22,7 +22,7 @@ export class Footer extends React.Component {
               <a class="icon" href="mailto:alan99179@gmail.com">
                 <i class="fas fa-envelope fa-2x"></i>
               </a>
-              <a class="icon" href="#">
+              <a class="icon" href="https://github.com/Alan-Ngo">
                 <i class="fab fa-github-alt fa-2x"></i>
               </a>
             </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 import './App.css';
 import {
-  BrowserRouter as HashRouter,
+  HashRouter,
   Route,
   Switch,
   Link,
@@ -11,13 +11,14 @@ import {
 import MainPage from './Pages/MainPage';
 import ProjPage from './Pages/ProjPage';
 
-
 function App() {
   return (
-    <HashRouter basename='/'>
-       <Route exact path="/" component={MainPage} />
-       <Route path="/test" component={ProjPage} />
-      </HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
+      <switch>
+        <Route exact path="/" render={MainPage} />
+        <Route path="/project" render={ProjPage} />
+      </switch>
+    </HashRouter>
   );
 }
 

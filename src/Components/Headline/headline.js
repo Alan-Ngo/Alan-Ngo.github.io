@@ -1,6 +1,7 @@
 import React from 'react';
 import Avatar from 'avataaars';
 import './headline.css';
+import { HashLink } from 'react-router-hash-link';
 
 export class Headline extends React.Component {
   constructor(props) {
@@ -26,8 +27,8 @@ export class Headline extends React.Component {
         <h1 id="name" style={{gridArea:'t'}}>Alan Ngo</h1>
         <h3 id="description" style={{gridArea:'des'}}>I'm a student / developer based in London, UK. I have a passion for programming and love to create games and apps.</h3>
 
-        <div style={{gridArea:'d'}}>
-          <a id="redirect" href="#projectContainer" class="fas fa-chevron-down fa-3x"></a>
+        <div id="down" style={{gridArea:'d'}}>
+          <HashLink id="redirect" to="#projectContainer" class="fas fa-chevron-down fa-3x"></HashLink>
         </div>
       </div>
     );

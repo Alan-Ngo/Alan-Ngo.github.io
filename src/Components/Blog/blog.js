@@ -1,5 +1,6 @@
 import React from 'react';
 import "./blog.css";
+import { HashLink } from 'react-router-hash-link';
 
 export class Blog extends React.Component {
   constructor(props) {
@@ -11,6 +12,7 @@ export class Blog extends React.Component {
         <div id="blogContainer">
             <h1>Blog</h1>
             <div id="blogs">
+
                     <a class="blog" href="#">
                     <div class="imgContainer">
                       <img class="blogImg" src="https://miro.medium.com/max/3600/1*6ahbWjp_g9hqhaTDSJOL1Q.png" ></img>
