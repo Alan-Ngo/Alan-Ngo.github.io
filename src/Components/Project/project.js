@@ -17,11 +17,11 @@ export class Project extends React.Component {
             <div id="projects">
                     <a class="project" href="#/project">
                       <div class="projImgC">
-                        <img></img>
+                        <img id="captcha"></img>
                         <div class="overlay"></div>
                       </div>
                       <div class="title">
-                        <h2>CAPTCHA Program</h2>
+                        <h2>CAPTCHA software</h2>
                       </div>
                     </a>
 

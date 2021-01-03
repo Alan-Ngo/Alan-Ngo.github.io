@@ -1,0 +1,43 @@
+.mainContent{
+    background-color: 	#FAFAED;
+    padding: 20px;
+    margin: 0;
+    height: 90vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+.infoPage{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.carousel .slide img {
+    max-height: auto;
+    width: auto;
+}
+
+.slide div{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.projectName{
+    font-size: 3em;
+}
+
+@media screen and (max-width: 1400px){
+    .infoPage{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+
+.link{
+    color: cornflowerblue;
+    text-align: center;
+  }

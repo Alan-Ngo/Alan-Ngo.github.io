@@ -52,12 +52,15 @@
     height: 100%;
     position: relative;
   }
+  
   .project div img{
     width: 100%;
     height: 90%;
     background-image: url(https://cdn2.unrealengine.com/egs-thelastcampfire-hellogames-s1-2560x1440-792480083.jpg?h=1080&resize=1&w=1920);
     background-size: contain;
+    background-color: black;
     display: block;
+    background-position:0% 40%;
     position: relative;
     transition: transform 1.5s;
     z-index: 2;
@@ -123,4 +126,9 @@ button:hover {
     padding-right: 5%;
   }
 }
-  
+
+#captcha{
+  background-image: url("../../Pages/Website/CAPTCHA3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

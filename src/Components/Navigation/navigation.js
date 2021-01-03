@@ -28,7 +28,7 @@ export class Navigation extends React.Component {
       return (
         <div >
             <div id="container">
-                <div id="logo">AN</div>
+                <div id="logo"><a href="/">AN</a></div>
                 <div id="nav" class="topnav">
                 <div><HashLink class="section" to="#headlineContainer"><h3>About</h3></HashLink><div class="underline"></div></div>
                 <div><HashLink class="section" to="#projectContainer"><h3>Projects</h3></HashLink><div class="underline"></div></div>

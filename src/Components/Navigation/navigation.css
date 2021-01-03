@@ -25,8 +25,13 @@ body {
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none !important;
+    color: white;
 }
+
+a:hover {
+    text-decoration: none !important;
+  }
 
 canvas {
     position: absolute !important;
