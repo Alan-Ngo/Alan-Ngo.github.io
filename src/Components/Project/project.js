@@ -25,13 +25,13 @@ export class Project extends React.Component {
                       </div>
                     </a>
 
-                    <a class="project" href="#">
+                    <a class="project" href="#/catjump">
                       <div class="projImgC">
-                        <img></img>
+                        <img id="catjump"></img>
                         <div class="overlay"></div>
                       </div>
                       <div class="title">
-                        <h2>Title</h2>
+                        <h2>Cat Jump</h2>
                       </div>
                     </a>
 

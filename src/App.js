@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import MainPage from './Pages/MainPage';
 import ProjPage from './Pages/ProjPage';
+import CatJump from './Pages/CatJump';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <switch>
         <Route exact path="/" render={MainPage} />
         <Route path="/project" render={ProjPage} />
+        <Route path="/catjump" render={CatJump} />
       </switch>
     </HashRouter>
   );
