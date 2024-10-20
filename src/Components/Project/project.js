@@ -11,52 +11,52 @@ export class Project extends React.Component {
         <div id="projectContainer">
             <div>
               <h1>Personal Projects</h1>
-              <div>Self-motivated projects which expand my creativity and offer clients an insight into my wider vision</div>
+              <div>A space to showcase projects that highlight my creativity, problem-solving, and passion for new ideas.</div>
             </div>
 
             <div id="projects">
-                    <a class="project" href="#/project">
-                      <div class="projImgC">
+                    <a className="project" href="http://localhost:3000/project">
+                      <div className="projImgC">
                         <img id="captcha"></img>
-                        <div class="overlay"></div>
+                        <div className="overlay"></div>
                       </div>
-                      <div class="title">
+                      <div className="title">
                         <h2>CAPTCHA software</h2>
                       </div>
                     </a>
 
-                    <a class="project" href="#/catjump">
-                      <div class="projImgC">
+                    <a className="project" href="http://localhost:3000/catjump">
+                      <div className="projImgC">
                         <img id="catjump"></img>
-                        <div class="overlay"></div>
+                        <div className="overlay"></div>
                       </div>
-                      <div class="title">
+                      <div className="title">
                         <h2>Cat Jump</h2>
                       </div>
                     </a>
 
-                    <a class="project" href="#">
-                      <div class="projImgC">
+                    <a className="project" href="http://localhost:3000/">
+                      <div className="projImgC">
                         <img></img>
-                        <div class="overlay"></div>
+                        <div className="overlay"></div>
                       </div>
-                      <div class="title">
+                      <div className="title">
                         <h2>Title</h2>
                       </div>
                     </a>
                     
-                    <a class="project" href="#">
-                      <div class="projImgC">
+                    <a className="project" href="http://localhost:3000/">
+                      <div className="projImgC">
                         <img></img>
-                        <div class="overlay"></div>
+                        <div className="overlay"></div>
                       </div>
-                      <div class="title">
+                      <div className="title">
                         <h2>Title</h2>
                       </div>
                     </a>
                   
             </div>
-            <button type="button" onclick="alert('Hello world!')">More Projects</button>
+            <button type="button">More Projects</button>
 
         </div>
     );

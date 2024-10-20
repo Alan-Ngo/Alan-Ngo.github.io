@@ -19,11 +19,10 @@ const ProjectPage = () => {
   return (
     <div className="App">
       <div>
-        <Navigation></Navigation>
-        <div class="mainContent">
-          <h1 class="projectName">CAPTCHA Software</h1>
-          <div class="infoPage">
-            <Carousel class="slider">
+        <div className="mainContent">
+          <h1 className="projectName">CAPTCHA Software</h1>
+          <div className="infoPage">
+            <Carousel className="slider">
               <div>
                 <img src={pic1} />
               </div>
@@ -55,7 +54,7 @@ const ProjectPage = () => {
             <li>Sqlite3</li>
             <li>Crypto</li>
             </ul>
-            <a class="link" target="_blank" href="https://github.com/Alan-Ngo/CAPTCHA">Link to github code</a>
+            <a className="link" target="_blank" href="https://github.com/Alan-Ngo/CAPTCHA">Link to github code</a>
           </div>
           
           </div>

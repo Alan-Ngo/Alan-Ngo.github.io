@@ -20,6 +20,7 @@ body {
     color: white;
     line-height: 80px;
     padding: 20px;
+    font-weight: bold;
     font-size: 40px;
     cursor: pointer;
 }
@@ -83,11 +84,33 @@ div{
 
 #nav div:hover > .underline{
     border-bottom: 3px solid white;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+    border-radius: 3px;
 }
 
 #container .icon{
     display: none;
 }
+
+#navbar {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+#tsparticles {
+    position: relative;
+    top: -80px;
+    left: 0px;
+    height: 80px;
+    z-index: -100;
+}
+
+canvas {
+    position: relative !important;
+}
+
 @media screen and (min-width: 0px) {
     #logo{
         font-size: 55px;

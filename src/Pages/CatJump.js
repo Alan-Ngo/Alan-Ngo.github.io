@@ -13,11 +13,10 @@ const CatJump = () => {
   return (
     <div className="App">
       <div>
-        <Navigation></Navigation>
-        <div class="mainContent">
-          <h1 class="projectName">Cat Jump Game</h1>
-          <div class="infoPage">
-            <Carousel class="slider">
+        <div className="mainContent">
+          <h1 className="projectName">Cat Jump Game</h1>
+          <div className="infoPage">
+            <Carousel className="slider">
               <div>
                 <img src={pic1} />
               </div>
@@ -33,7 +32,7 @@ const CatJump = () => {
             <p> The Cat Jump game is made in the Unity Game engine and is the first game that I have published to the Google Play Store. It currently has over 100 downloads from multiple different countries. The aim of the game is to get the highest personal score by making the cat jump from platform to platform, the further the Cat reaches. the more points are awarded.</p>
             <br></br>
             Give the game a try below:<br></br>
-            <a class="link" target="_blank" href="https://play.google.com/store/apps/details?id=com.archeon.cat.catjump&hl=en_GB&gl=US">Link to the game</a>
+            <a className="link" target="_blank" href="https://play.google.com/store/apps/details?id=com.archeon.cat.catjump&hl=en_GB&gl=US">Link to the game</a>
             <br></br>
             <br></br>
             <h2>Technologies</h2>

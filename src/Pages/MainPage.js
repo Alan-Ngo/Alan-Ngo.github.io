@@ -10,7 +10,6 @@ import React from "react";
 const MainPage = () => {
   return (
     <div className="App">
-    <Navigation></Navigation>
     <Headline></Headline>
     <Project></Project>
     <Blog></Blog>

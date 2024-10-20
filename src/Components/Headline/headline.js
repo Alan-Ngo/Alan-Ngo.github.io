@@ -25,10 +25,10 @@ export class Headline extends React.Component {
             skinColor='Light'
         />
         <h1 id="name" style={{gridArea:'t'}}>Alan Ngo</h1>
-        <h3 id="description" style={{gridArea:'des'}}>I'm a student / developer based in London, UK. I have a passion for programming and love to create games and apps.</h3>
+        <h3 id="description" style={{gridArea:'des'}}>I'm a software engineer located in London, UK, with a passion for programming. I enjoy developing games and applications that bring ideas to life.</h3>
 
         <div id="down" style={{gridArea:'d'}}>
-          <HashLink id="redirect" to="#projectContainer" class="fas fa-chevron-down fa-3x"></HashLink>
+          <HashLink id="redirect" to="#projectContainer" className="fas fa-chevron-down fa-3x"></HashLink>
         </div>
       </div>
     );
